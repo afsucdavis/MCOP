@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001100111" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns10111100111" font="Open Sans" controllayout="npnxnanbsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="pxabnsnfns10111100111" font="Open Sans" controllayout="pxabnsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="npxnabnsnfns10111100111" font="Open Sans" controllayout="npxnabnsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="npnxnanbnsnfns10111100111" font="Open Sans" controllayout="npnxnanbnsnfns10111100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="pxabnsnfns10111100110" font="Open Sans" controllayout="pxabnsnfns10111100110" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="npnxnanbnsnfns00001100111" font="Open Sans" controllayout="npnxnanbnsnfns00001100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+    <layout name="pxabnsnfns00001100111" font="Open Sans" controllayout="pxabnsnfns00001100111" colorscheme="npnxnanbnsnfns00001100111" string_table="npnxnanbnsnfns00001100111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="UCPath | Salary Cap/ MCOP Worksheet" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkleft" />
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="true" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111100110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001100111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00001100111">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00001100111">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Calibri">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5obfQIbbLi9" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5obfQIbbLi9.5nBw2PwoSdz" displaytext="Intro Screen" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5gIHTi6Buz2" displaytext="Table of Contents" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.685v8hvRsOQ" displaytext=" Intro" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5hInYUH2qnq" displaytext="Definition" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5YTKequTTxk" displaytext="Getting to the position you wish to edit" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5vAuGuYzrux" displaytext="Add a new value" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6fh5Ss7FlQ7" displaytext="Add" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6NuccmEWpVZ" displaytext="Salary CAP/MCOP worksheet" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6KFMoMIyRxw" displaytext="Requirements" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6BiVUXQvniW" displaytext="Link" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6opUzGCXBI8" displaytext="The worksheet" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.63hLKICvecB" displaytext="Snapshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5YEOctecsUI" displaytext="The cap" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.698LaOWX8EY" displaytext="Pay component" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6JzcSt5iplS" displaytext="Different approaches" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.658beZItswT" displaytext="Working with a HSCP Employee" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6fzevgHqaIn" displaytext="HCOMP" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5mHGcAO6D0x" displaytext="Click plus" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5hDXfY9N4ab" displaytext="Editing fields" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5wXhD0JlY8f" displaytext="Date" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6TRd8T63VGj" displaytext="Worksheet" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6IWaEPIFuuo" displaytext="Percentage" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5otVpsEbCNc" displaytext="Default Funding profile " expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.63kVNVVBAVZ" displaytext="Ente date" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6LWUgodTreo" displaytext="Funding distribution worksheet" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5rQUHThfuTO" displaytext="OTC" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5dn5vPxv31w" displaytext="OTC yes" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6qhomUYEK1n" displaytext="Chart-account" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6nqpmhUFKoz" displaytext="Over the cap" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.65A1dOO5yie" displaytext="Default funding" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6BPegtp2zYJ" displaytext="Begin and end date" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6Wd2RxnsjHj" displaytext="Percent of pay" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6ci0mXtumwV" displaytext="Codes" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5wZ9OJAsfio" displaytext="Example" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6Ik7FdC0Hpq" displaytext="Sum of codes" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5jpKYItRwme" displaytext="Conection" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5eMMF8QSkaP" displaytext="Sum " expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.68d8sDQMeP2" displaytext="Cap amount" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5gryhlK6jpq" displaytext="Preview" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.61kJVpVKehO" displaytext="Return" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6lUzcplx8WN" displaytext="OTC column" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.63iBlQGb0jL" displaytext="Comparing" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5kWjXvxNTMW" displaytext="Defaut account" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.60XcBVRKrfn" displaytext="Initiator comment" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5rfOFG61q9r" displaytext="Save" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6JcA8loofJb" displaytext="Submit" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6407PCFJfuB" displaytext="Working with a Non HSCP Employee" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5eIjNqzcboR" displaytext="Search querry" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.64Q3EvrMZ6Y" displaytext="Funding entry page" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6Fh4T5ZErNy" displaytext="Effective date" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6jMJvPuLzAe" displaytext="Compensation snapshot" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6RQJyfT2sYc" displaytext="Default Funding profile" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6XSz70OrRlf" displaytext="Add a row" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.69FCCmy1J4B" displaytext="Accounts" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.65HQRdTWeAk" displaytext="The worksheet" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6GM1r43y2Fv" displaytext="Add a row" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6YHWIU8mEHU" displaytext="Funding distribution" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.69uYZNenCLf" displaytext="Compensation" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5ujGChVb0Vv" displaytext="Begin and end dates" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6iL2RFqshhK" displaytext="Percent of pay" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.68al8UQsnLp" displaytext="Preview" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5dbYlcQjrSq" displaytext="Submit" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.5mWAJMdDI9n" displaytext="Initiator comment" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6p9K2C7xtXL" displaytext="Submit" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.61gFBjxQqoh" displaytext="Contact Us" expand="false" type="slide" />
+            <slidelink slideid="_player.5obfQIbbLi9.6CMnWq6Z9rC" displaytext="Exit Course" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="5obfQIbbLi9.5nBw2PwoSdz" slidebank="false" type="slide"> start course start course start course start course start course start course  salary cap/ mcop funding  worksheet ucdgenxxx</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5gIHTi6Buz2" slidebank="false" type="slide">table of contents   salary cap/ mcop funding  worksheet  %menu.slidenumber% of %menu.totalslides% this module is approximately  15 minutes long    download the course companion to follow along          introduction navigating to the position to be edited scenario 1: hscp employees scenario 2: non-hscp employees  </slidetext>
+      <slidetext slideid="5obfQIbbLi9.685v8hvRsOQ" slidebank="false" type="slide">  01  intro</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5hInYUH2qnq" slidebank="false" type="slide"> home&gt; setup hcm &gt; product related &gt; commitment accounting &gt; uc customizations &gt; funding entry rivera, rodrigo   salary cap / mcop worksheet  is used to set up complex funding, such as funding subject to salary cap rates or positions with multiple components of pay      %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5YTKequTTxk" slidebank="false" type="slide">  02 getting to the position you wish to edit</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5vAuGuYzrux" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6fh5Ss7FlQ7" slidebank="false" type="slide"> funding entry &amp; updates funding entry &amp; updates funding entry &amp; updates funding entry &amp; updates funding entry &amp; updates funding entry &amp; updates 40100000 049018 %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6NuccmEWpVZ" slidebank="false" type="slide">   %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6KFMoMIyRxw" slidebank="false" type="slide">rivera, rodrigo       salary is above the cap the system displays error and you cannot save the data. you must use the worksheet.      salary is below the cap the system displays error and you can decide if you want to  use the worksheet      funding for hscp employee with multiple components of pay, you must use the salary cap/mcop funding worksheet.      %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6BiVUXQvniW" slidebank="false" type="slide">rivera, rodrigo     %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6opUzGCXBI8" slidebank="false" type="slide">   %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.63hLKICvecB" slidebank="false" type="slide">      %menu.slidenumber% of %menu.totalslides%  continue           %menu.slidenumber% of %menu.totalslides% view example </slidetext>
+      <slidetext slideid="5obfQIbbLi9.5YEOctecsUI" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides%      </slidetext>
+      <slidetext slideid="5obfQIbbLi9.698LaOWX8EY" slidebank="false" type="slide">        %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6JzcSt5iplS" slidebank="false" type="slide">    let’s take a look at  some different scenarios %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.658beZItswT" slidebank="false" type="slide">  02 working with a  hscp employee</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6fzevgHqaIn" slidebank="false" type="slide"> joy, james 10111110 %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5mHGcAO6D0x" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5hDXfY9N4ab" slidebank="false" type="slide"> 10111110 joy, james %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5wXhD0JlY8f" slidebank="false" type="slide">  type in or select  a date joy, james 10111110 %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6TRd8T63VGj" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6IWaEPIFuuo" slidebank="false" type="slide">   10111110 joy, james %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5otVpsEbCNc" slidebank="false" type="slide">    %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.63kVNVVBAVZ" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6LWUgodTreo" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5rQUHThfuTO" slidebank="false" type="slide">    %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5dn5vPxv31w" slidebank="false" type="slide">    %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6qhomUYEK1n" slidebank="false" type="slide">   %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6nqpmhUFKoz" slidebank="false" type="slide">            tip %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.65A1dOO5yie" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6BPegtp2zYJ" slidebank="false" type="slide">      %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6Wd2RxnsjHj" slidebank="false" type="slide">  $ amt firm?     %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6ci0mXtumwV" slidebank="false" type="slide"> joy, james %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5wZ9OJAsfio" slidebank="false" type="slide">          joy, james 10111110 %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6Ik7FdC0Hpq" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5jpKYItRwme" slidebank="false" type="slide">z      %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5eMMF8QSkaP" slidebank="false" type="slide">z           %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.68d8sDQMeP2" slidebank="false" type="slide">     checking the cap amount %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5gryhlK6jpq" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%      clicking on the “return to funding entry” link will delete all of your changes</slidetext>
+      <slidetext slideid="5obfQIbbLi9.61kJVpVKehO" slidebank="false" type="slide">   %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6lUzcplx8WN" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.63iBlQGb0jL" slidebank="false" type="slide">y-otc004 n-otc004        %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5kWjXvxNTMW" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.60XcBVRKrfn" slidebank="false" type="slide">  enter the initiator’s name in this box %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5rfOFG61q9r" slidebank="false" type="slide">joy, james 10111110  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6JcA8loofJb" slidebank="false" type="slide">joy, james 10111110 %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6407PCFJfuB" slidebank="false" type="slide">  03 working with a  non hscp employee</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5eIjNqzcboR" slidebank="false" type="slide">%menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.64Q3EvrMZ6Y" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6Fh4T5ZErNy" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6jMJvPuLzAe" slidebank="false" type="slide">     %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6RQJyfT2sYc" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6XSz70OrRlf" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides% </slidetext>
+      <slidetext slideid="5obfQIbbLi9.69FCCmy1J4B" slidebank="false" type="slide">     %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.65HQRdTWeAk" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6GM1r43y2Fv" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6YHWIU8mEHU" slidebank="false" type="slide">%menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.69uYZNenCLf" slidebank="false" type="slide">   %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5ujGChVb0Vv" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6iL2RFqshhK" slidebank="false" type="slide">  $ amt firm?      %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.68al8UQsnLp" slidebank="false" type="slide"> %menu.slidenumber% of %menu.totalslides%      clicking on the “return to funding entry” link will delete all of your changes</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5dbYlcQjrSq" slidebank="false" type="slide">  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.5mWAJMdDI9n" slidebank="false" type="slide">initiator’s name %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6p9K2C7xtXL" slidebank="false" type="slide">initiator’s name  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.61gFBjxQqoh" slidebank="false" type="slide"> ucpath.ucdavis.edu ucpath.ucdavis.edu   contact us       ucpath@ucdavis.edu ucpath@ucdavis.edu     ucpath training materials ucpath training materials  you may also be interested in these courses: funding entry upcoming changes: funding &amp; salary cost transfers funding entry inquiry overview of funding in ucpath  %menu.slidenumber% of %menu.totalslides%</slidetext>
+      <slidetext slideid="5obfQIbbLi9.6CMnWq6Z9rC" slidebank="false" type="slide"> exit course exit course exit course restart course restart course restart course you’ve completed this course %menu.slidenumber% of %menu.totalslides%</slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Open Sans' style='font-size: 11px;' size='11' color='#444444'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="https://ucdavis.box.com/s/q5r8mc15bhyvnzak0swfg5yepkpilyu7" image="story_content/url.png" title="Salary Cap/MCOP Worksheet Course Companion" />
+      <resource url="story_content/external_files/UCPath _ Salary Cap_ MCOP Worksheet.doc" image="story_content/6cHQB3NzzoM.png" title="Salary Cap/MCOP Worksheet" />
+      <resource url="https://uc.sumtotal.host/core/pillarRedirect?relyingParty=LM&amp;url=app%2Fmanagement%2FLMS_ActDetails.aspx%3FActivityId%3D372168%26UserMode%3D0" image="story_content/url.png" title="Funding Entry &amp; Updates" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5obfQIbbLi9.5gIHTi6Buz2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Welcome to the U C Path Salary Cap/MCOP worksheet training module.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;This course will teach you how to use this page in UCPath&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;You can jump to a specific section of this module by clicking the menu link at the top left of the screen to open then menu, and then selecting the slide you would like to view.&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;If you wish to view the closed captions for this training module, click the speech bubble icon at the bottom of the player.&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;We have added files relevant to this training under the Resources link.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;At times during this training, we may ask you to click an object on the screen to trigger an action, or click the next button to advance the course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;If you&amp;#39;d like to take notes, please download and print the Course Companion.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='7' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Calibri' size='12.5pt' style="font-size:12.5pt;" color='#000000'&gt;Click next when you are ready to get started&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5hInYUH2qnq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Salary Cap / MCOP Worksheet is used to set up complex funding, such as funding subject to salary cap rates or positions with multiple components of pay such as Health Sciences Compensation Plan (HSCP) employees.&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;It is accessible from the Funding Entry page, as shown on the navigation path, and  accessed via a link at the bottom right of the page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5vAuGuYzrux" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;From the Funding Entry page, select the Add new value tab.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6fh5Ss7FlQ7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Enter your search criteria, and click the add button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This Salary Cap/ MCOP Worksheet training module will not cover the non-worksheet portions of the Funding Entry page.  We cover the Funding Entry page in detail on the Funding Entry &amp;amp; Updates training module. The Link to that training is available on this page and under the Resources menu.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6NuccmEWpVZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Funding Entry page opens up.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;It displays the Salary Cap / MCOP Worksheet link only for a filled position with a single incumbent and there is a Capped Fund or a Health Sciences Compensation Plan (HSCP) employee with multiple components of pay, or both. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6KFMoMIyRxw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s stop here for a moment. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you attempt to enter funding on the Funding Entry page instead of the Salary Cap/M COP Worksheet and the employee’s salary is above the cap, the system displays an error and you cannot save the data. You Must use the Salary Cap / MCOP Funding Worksheet. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If the employee’s salary is below the cap, the system displays a warning message. You can decide whether to use the Salary Cap / MCOP Funding Worksheet or the Funding page. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When entering funding for a Health sciences compensation plan (HSCP) employee with multiple components of pay, you must use the salary cap/M cop funding worksheet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6BiVUXQvniW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the Salary MCOP worksheet link to open it.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6opUzGCXBI8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The salary cap/mcop funding worksheet opens up.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s take a look at the different areas of this worksheet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.63hLKICvecB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In this example we can see how a regular the Salary Cap/MCOP Funding worksheet for a regular faculty with capped funding looks link.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Similarly, the  Compensation Data Snapshot section displays the incumbent employee&amp;#39;s compensation data from Job Data, including Salary Plan, Salary Grade, Step, Comp Frequency and FTE. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This is view-only data to help you complete the MCOP worksheet. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click to continue.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;-----&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In this example we can see how a regular the Salary Cap/MCOP Funding worksheet for a regular faculty with capped funding looks like.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Similarly, the  Compensation Data Snapshot section displays the incumbent employee&amp;#39;s compensation data from Job Data, including Salary Plan, Salary Grade, Step, Comp Frequency and FTE. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This is view-only data to help you complete the MCOP worksheet. &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click to continue.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt; &lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5YEOctecsUI" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s stop here for a moment, and understand how the worksheet areas relate to each other.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;For HSCP employees with multiple components of pay, the percentage per Ern Code must equal the total percentage in the Compensation Data Snapshot.  In this example, the sum of the Percent of Effort for all of the HSR rows should equal 42.285714 as displayed in the Compensation Data Snapshot.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In the Default Funding Profile section, the Earn Code should be blank, the OTC Indicator is “No” for the default funding FAU and “Yes” if there is above-the-cap funding.  The Distribution % should equal 100% per Ern Code and OTC Indicator combination.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.698LaOWX8EY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Pay Component details from the employee&amp;#39;s job earnings distribution (JED) from Job Data are displayed, including the earnings codes, and the monthly and annual dollar amount breakdowns, and the breakdown percentage per Earnings Code (HSR, HSP, HSN, and HOS if applicable for HSCP employees and REG for non HSCP employees.	&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;	&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6JzcSt5iplS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In the next section of this training, we are going to look at different scenarios in which the M COP worksheet is used.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 7]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6fzevgHqaIn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s start with an employee whose position requires the use of the Salary Cap/M Cop worksheet.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;All Health Sciences Compensation Plan (HSCP) faculty with multiple components of pay - x, x prime, and y - must use the worksheet regardless of salary capped funding.  &lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5mHGcAO6D0x" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When opening the Funding Entry page, we need to click the plus button to add a row in order to edit the funding entry page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5hDXfY9N4ab" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Notice that the fields open up for data entry. However, as we mentioned before, all the changes must be made on the M COP worksheet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5wXhD0JlY8f" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Before we move to the M COP worksheet, we must enter the Funding effective date here.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6TRd8T63VGj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now click the link to open the M COP worksheet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6IWaEPIFuuo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The worksheet opens up. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s take a look at the different areas of the worksheet for this HSCP employee.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The compensation Data snapshot area lists information from Job.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Notice that there’s a percentage associated to each of the earning codes.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5otVpsEbCNc" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This is the Default Funding profile section where the default FAU and the Above-the-Cap funding are entered.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Scroll to the right to find the plus button to add a row.&lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the view all button to display all rows and to bring the row that you just added to the top of the section.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Keep in mind that you will add a row only if this section needs to be edited.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.63kVNVVBAVZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Enter the Funding Effective Date, it should be the same date that you entered in the main Funding Entry page. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6LWUgodTreo" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe the Funding Distribution worksheet.  We’ll have to add a row by scrolling to the right and clicking the plus button, and then, since this example has multiple rows, we select 1 to go to the editable area.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Alternatively, you can click the view all button to display all effective dated records.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5rQUHThfuTO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe that this employee does have a salary cap, and we can tell it because there is a value in the Cap Type field, as you can see on the screen.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;We need to identify the non-sponsored funding source that will pay the above the cap amount.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In this case the cap rate is $192,300.00. However, the employee compensations is $192,500; therefore,&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;, the amount above the cap for that distribution must be charged to the above the cap account.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt; &lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5dn5vPxv31w" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The over the cap amount will be charged to this row.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe that the OTC, or over the cap indicator must be set to Yes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6qhomUYEK1n" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; The chart-account that will be charged for the above the cap amount is entered here. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6nqpmhUFKoz" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;At times, you may need to split the over the cap amount into 2 different accounts. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;So a row must be added to enter the full accounting unit, such as chart-account, project number, etc.  &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Then the percentage of the fund can be split between the accounts.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.65A1dOO5yie" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now observe the first row with the Default Funding Profile. It has the OTC, or over the cap indicator set as NO.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This row is used as a backup account in case the total compensation is not fully distributed in the Funding Distribution Worksheet.  This will be visible when you click on the Funding Distribution Preview.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6BPegtp2zYJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now let’s talk about how to enter funding to the Funding Distributions Worksheet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Here we have to enter the funding begin and end date by row, as well as the FAU. &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Please note that you must enter an earn code to each row of the funding distribution worksheet.  It cannot be left blank.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6Wd2RxnsjHj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now let’s examine the columns identifying the distribution.&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Notice that data has been entered to the Total allocated amount column, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;however, there are 2 more areas where pay can be entered as you can see highlighted on the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Deleting the data in the total allocated amount cell, and tabbing out of it, enables these two other cells.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When you enter a value in one of these three fields and tab out, the system will derive the other 2 fields.. If you are distributing by percentage, we recommend using the Percent of Effort field.&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt; &lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6ci0mXtumwV" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;One more important thing to note: for the HSCP population, each earn code has a percentage associated with it. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5wZ9OJAsfio" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe that in this example the Earn codes HSR, &lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;HSP,  HSN and HOS have different percentage associated with them.&lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The sum of the percentage of all the codes equals 100%.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6Ik7FdC0Hpq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In addition,  the sum of the percentage of each code, for instance the HSR code highlighted here, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5jpKYItRwme" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;must equal the amount on the Compensation Data snapshot area.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5eMMF8QSkaP" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;We want to bring to your attention that in the main Funding Entry page, the total percentage per Ern code must equal 100%, however this rule is not applied to the worksheet.&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;On the Salary Cap/M COP worksheet, the Percent of Effort percentage must equal the total percentage of the specific Earn code. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.68d8sDQMeP2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;It’s worth noticing that cap rates are changed by the sponsors every so often.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;UCPath will default to apply the current cap rate.  If the incumbent is subject to a previous cap rate, click the magnifying glass and select the correct rate.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5gryhlK6jpq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="34">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Once you’ve completed all of the changes, click the Funding Distribution Preview button at the bottom left of the page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The system will display a preview of how the changes will load funding distributions to the main Funding Entry page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In other words, the system will translate the changes back to the specifications of the Funding Entry page, which is 100% per earn code. &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Note that clicking on the “Return to Funding Entry” link will delete all of your changes and return to the main Funding Entry page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.61kJVpVKehO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="35">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you need to make changes, click the Return to Salary Cap/M cop funding worksheet.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Or, if you are ready to commit to your changes, click the  Submit to Funding Entry button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6lUzcplx8WN" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="36">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The changes are now reflected in the main Funding Entry page.&lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe the OTC indicator displaying a value in the OTC Indicator column.  For each funding row that is subject to salary cap, the up-to-the-cap row is indicated by the “N” value and the over-the-cap row is indicated by the “Y” value.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.63iBlQGb0jL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="37">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If we look back at the worksheet, we can observe that there are 4 funding sources have capped funding, meaning that on these four instances where the indicator displays Y, &lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;, the funding is charged the over-the-cap account.&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe how this data is translated into the Funding Entry page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5kWjXvxNTMW" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="38">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;There is one more thing we want to point out.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Observe that the last row contains the default funding FAU from the Default Funding Worksheet section of the Worksheet and has a blank Earn Code at the percentage from the Worksheet (usually 100%).  As mentioned before, any distribution shortages above will be charged to this funding row.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.60XcBVRKrfn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="39">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Before you submit the funding Entry page, there is one more thing that we suggest: type in the initiator name, in the initiator comment box to help your Approver see who initiated the transaction in case they have questions.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5rfOFG61q9r" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="40">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now we click the Save button.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;After saving the page, the submit button will appear at the bottom of the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6JcA8loofJb" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="41">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the button to submit the page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5eIjNqzcboR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="42">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In this scenario, we’ll look at a non HSCP employee. &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Start by defining your search criteria, and clicking the add button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.64Q3EvrMZ6Y" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="43">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Funding Entry page opens up.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the plus button to add a new funding Effective Dated row.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6Fh4T5ZErNy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="44">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Enter the funding effective date here.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Since  there is some over the cap funding in this entry, we need to edit it using the Salary Cap/ M cop funding worksheet. &lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;So, we click the link to get to the worksheet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Note that the Salary Cap/MCOP Funding Worksheet is only available when there is an incumbent in the position.  It will not be used when the Position is unfilled.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6jMJvPuLzAe" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="45">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;We land on the Salary Cap/ M Cop Funding Worksheet .&lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s stop here and understand each of the section of the worksheet.&lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Compensation Data Snapshot provides information about the Job, such as the compensation frequency and FTE.  Observe that this is a .21 FTE position. The Monthly and Annual amounts displayed are the pro-rated amounts.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6RQJyfT2sYc" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="46">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This is the Default Funding profile section where the default FAU and the Above-the-Cap funding are entered.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6XSz70OrRlf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="47">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Scroll to the right to find the plus button to add a row.&lt;br&gt;&lt;/font&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the view all button to display all rows and to bring the row that you just added to the top of the section.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Keep in mind that you will add a row only if this section needs to be edited.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Enter the Funding Effective Date, it should be the same date that you entered in the main Funding Entry page. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.69FCCmy1J4B" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="48">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In the Default Funding Profile section, the Earn Code should be blank.  In this example there are two rows with two unique Accounts and OTC Indicators. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The OTC Indicator is “No” for the default funding FAU and “Yes” for above-the-cap funding.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;The Distribution % should equal 100% per Ern Code and OTC Indicator combination.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you need to add or remove an account, use the plus or minus buttons.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.65HQRdTWeAk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="49">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Now let’s talk about how to enter funding to the Funding Distributions Worksheet.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6GM1r43y2Fv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="50">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Scroll to the right to find the plus button. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click it to add a row.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click the view all to bring the editable row to the top.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6YHWIU8mEHU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="51">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Let’s take a close look at the funding distribution, and the data available in this area.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.69uYZNenCLf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="52">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Notice that the monthly compensation of this employee is $2,876.91, however the cap rate is $2,593.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;So, the difference of $282.94 will be charged to the Over the cap account indicated in the Default Funding Profile section with the OTC Indicator of “Yes”.&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5ujGChVb0Vv" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="53">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In the Funding distribution worksheet, you must enter the begin and end dates.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;In addition, the earn code may not be left blank.  For non-HSCP employees, the Earn Code should be “REG”. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If there are multiple funding distributions, click the + button to add an additional row or rows.  Make sure the sum of the Percent of Effort column equals 100%.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6iL2RFqshhK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="54">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt; There is one more thing we want to point out  on the columns identifying the distribution.&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Notice that data has been entered to the Total allocated amount column, &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;however, there are 2 more areas where pay can be entered as you can see highlighted on the screen.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Deleting the data in the total allocated amount cell, and tabbing out of it, enables these two other cells.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When you enter the percent of pay, the system will derive the other 2 fields.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='8' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When you enter a value in one of these three fields and tab out, the system will derive the other 2 fields.. If you are distributing by percentage, we recommend using the Percent of Effort field.&lt;/font&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt; &lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;br&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.68al8UQsnLp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="55">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When  you are finished with your worksheet edits,  click the Funding distribution preview button.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Note that clicking on the “Return to Funding Entry” link will delete all of your changes.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5dbYlcQjrSq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="56">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This preview will combine the up to the cap and over the cap funding distribution rows in the same section.  It is a preview of how your entries will be committed to the Funding Entry Page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;You can return to the worksheet page if you need to make any changes,&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;or click the submit to funding entry page to finalize it.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.5mWAJMdDI9n" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="57">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px;margin-top: 6px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Before clicking the Save button, enter the name of the initiator and any other helpful information in the Initiator Comment box.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Then click save.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.6p9K2C7xtXL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="58">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;After saving the page, the submit button becomes available.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you need to notify another user that this transaction has been submitted, you can use the notify button.&lt;br&gt;&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;When you are ready, click the button to submit the page.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;This concludes this course. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Please click next to continue.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5obfQIbbLi9.61gFBjxQqoh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="59">&lt;html&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Thank you for watching!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Visit the UC Davis UC Path website for more training resources and job aids.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;If you have questions or suggestions, please drop us an email.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;font face='Open Sans' size='12.5pt' style="font-size:12.5pt;" color='#444444'&gt;Click next to close the course.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left' style='text-align:left;direction: ltr; padding-left: 0px'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>

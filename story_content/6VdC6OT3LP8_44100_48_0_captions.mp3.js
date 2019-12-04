@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.32.20313.0%0D%0A%0D%0A00:00:00.150%20--%3E%2000:00:04.080%0D%0AClick%20the%20Salary%20M%20COP%20worksheet%20link%20to%20open%20it.%0D%0A%0D%0A"}')
